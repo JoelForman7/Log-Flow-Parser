@@ -27,6 +27,7 @@ The output will be saved in a file called `output.txt` in the same directory.
 - The destination port is taken from the 7th field in the flow log entry.
 - The protocol is identified by the 8th field: `6` for TCP, `17` for UDP, and others for ICMP.
 - Matching is case-insensitive.
+- The flow log file size can be up to 10 MB 
 - The script expects the flow log and lookup table files to be small enough to load into memory.
 
 ## Testing
